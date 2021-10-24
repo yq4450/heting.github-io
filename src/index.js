@@ -18,7 +18,7 @@ window.onload = function () {
 
     function getTime() {
         let curTime = Date.parse(new Date())
-        let targetTime = Date.parse(new Date("2021-06-21 22:45:00"))
+        let targetTime = Date.parse(new Date("2021/06/21 22:45:00"))
         let timeDifference = (curTime - targetTime) / 1000
         console.log('timeDifference', timeDifference)
         let ss = Math.floor(timeDifference % 60)
